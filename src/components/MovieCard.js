@@ -4,6 +4,7 @@ import MovieControls from "./MovieControls";
 const MovieCard = ({ movie, type }) => {
   return (
     <div className="movie-card">
+      <div className="movie-note">{movie.vote_average}</div>
       <div className="overlay"></div>
 
       {movie.poster_path ? (

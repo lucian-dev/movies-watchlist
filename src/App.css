@@ -145,19 +145,21 @@ header .nav-links li:last-child {
 }
 
 .result-card {
+  position: relative;
   display: flex;
   margin-bottom: 20px;
 }
 
 .result-card .poster-wrapper img,
 .filler-poster {
-  width: 75px;
-  height: 113px;
+  width: 125px;
+  height: 175px;
   background-color: #dbdada;
   border-radius: 5px;
   margin-right: 15px;
   display: block;
   color: transparent;
+  object-fit: cover;
 }
 
 .filler-poster-full {
@@ -188,6 +190,20 @@ header .nav-links li:last-child {
 
 .result-card .controls button {
   margin-right: 10px;
+}
+
+.movie-note {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: yellow;
+  width: 35px;
+  height: 35px;
+  border-bottom-right-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
 }
 
 /* Movie Page */

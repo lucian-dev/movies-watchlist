@@ -15,6 +15,7 @@ const ResultCard = ({ movie }) => {
   return (
     <div className="result-card">
       <div className="poster-wrapper">
+        <div className="movie-note">{movie.vote_average}</div>
         {movie.poster_path ? (
           <img
             src={`https://image.tmdb.org/t/p/w200${movie.poster_path}`}
