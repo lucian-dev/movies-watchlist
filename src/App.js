@@ -1,15 +1,9 @@
-import "./App.css";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-} from "react-router-dom";
-import { GlobalProvider } from "./context/GlobalState";
-import Header from "./components/Header";
-import Watchlist from "./components/Watchlist";
-import Watched from "./components/Watched";
-import AddMovie from "./components/AddMovie";
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { GlobalProvider } from './context/GlobalState';
+import Header from './components/Header';
+import Watchlist from './components/Watchlist';
+import Watched from './components/Watched';
+import AddMovie from './components/AddMovie';
 
 function App() {
   return (
